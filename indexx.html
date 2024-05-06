@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <title>Home</title>
+        <link rel="stylesheet" href="styyle.css">
+        <script src="https://kit.fontawesome.com/579edb6e99.js"></script>
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user-plus"></i> Add Admin</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user-plus"></i> Add Patient</a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar"></i> Book Appointment</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chart-simple"></i> Chart</a></li>
+                </ul>
+            </div>
+            <style type="text/css">
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: sans-serif;
+                }
+                .Image{
+                    position: relative;
+                    width: 100%;
+                    height: 100vh;
+                    background-image: url(doc.jpeg);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .Image::after{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(0, 0, 0, 0.55);
+                }
+                .content{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                }
+                .content h2{
+                    font-size: 50px;
+                    color: white;
+                    margin-bottom: 20px;
+                }
+                .content h2 span{
+                    color: #0077b6;
+                }
+                .content p{
+                    font-size: 20px;
+                    color: white;
+                    opacity: 0.8;
+                }
+                .content button{
+                    padding: 12px 22px;
+                    margin-top: 30px;
+                    font-size: 22px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    background-color: #0077b6;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    opacity: 0.8;
+                    transition: opacity 0.5s;
+                }
+                .content button:hover{
+                    opacity: 1;
+                }
+            </style>
+            
+            <div class="main_content">
+                <div class="header">Welcome!! </div>
+                <div class="Image"></div>
+
+        <div class="content">
+            <h2>Welcome to Royalty Hospital</h2>
+            <p>We have best medical equipment for our Patient.</p>
+            <p>We also provide's the best medical treatment that you will ever experience.</p>
+            <button>Send Message</button>
+        </div>
+            </div>
+        </div>
+
+        <!--- About --->
+        <div class="main-about">
+            <div class="inner-main-about">
+                <div class="about-inner-content">
+                    <img src="about.jpg" width="250" height="400">
+                </div>
+
+                <div class="about-inner-content">
+                    <div class="about-right-content">
+                        <h2>We're setting Standards in Research</h2>
+                        <p>We Provide the Best Medical service for anyone, So that every person could have the opportunity to recieve qualitative Medical help.</p>
+                        <p>Our Clinic Has Grown To Provide A World Class Facility For The Treatment Of Tooth Loss, Dental Cosmetics And Bore Advanced Restorative Dentistry.</p>
+                       <p>We Are Among The Most Qualified Implant Providers In The AUS With Over 30 Years Of Uality Training And Experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- Welcome --->
+        <section class="welcome">
+            <h1>Best Doctors</h1>
+            <p>We have the best medical team.</p>
+
+            <div class="row">
+                <div class="welcome-col">
+                    <h3>Dentist</h3>
+                    <img src="dent.avif" width="250" height="250">
+                    <p>We have the best dentist</p>
+                </div>
+
+                <div class="welcome-col">
+                    <h3>Optician</h3>
+                    <img src="opt.jpg" width="250" height="250">
+                    <p>We have the best Optician.</p>
+                </div>
+
+                <div class="welcome-col">
+                    <h3>Surgeon</h3>
+                    <img src="sur.jpg" width="250" height="250">
+                    <p>We have the best suregeon</p>
+                </div>
+            </div>
+        </section>
+
+        <!--- Advantages --->
+        <section class="advantages">
+            <h1>Our Advantages</h1>
+            <p>We also provide you with the most comfortable seats class.</p>
+
+            <div class="row">
+                <div class="seats-col">
+                    <img src="appointment.jpg" width="250" height="250">
+                    <h3>Appointment</h3>
+                    <p>Get your appointment fast.</p>
+                </div>
+                <div class="seats-col">
+                    <img src="medi.jpg" width="250" height="250">
+                    <h3>Medicine</h3>
+                    <p>We Provide you with the necessary medicine that you need.</p>
+                </div>
+                <div class="seats-col">
+                    <img src="operation.jpg" width="250">
+                    <h3>Operation</h3>
+                    <p>We give our patient good treatment via operation</p>
+                </div>
+            </div>
+        </section>
+
+        <!--- Review --->
+        <section class="review">
+            <h1>What Our Patient Says</h1>
+            <p>See here on what our patients has to say about our services.</p>
+
+
+            <div class="row">
+                <div class="review-col">
+                    <img src="jackie.jpg" width="100">
+                <div>
+                    <p>"I have really enjoyed travelling around the world with AirStar Airline and will continue to do so."</p>
+                    <h3>Jackie Chan</h3>
+                </div>
+                </div>
+                <div class="review-col">
+                    <img src="rock.jpg" width="100" >
+                <div>
+                    <p>"This is far the best of the best hospital ever."</p>
+                    <h3>Dwayne Johnson</h3>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <!----- Visit Us ---->
+
+        <section class="ctu">
+            <h1>Please be a part of our amazing hospital</h1>
+            <a href="contact.jpg" class="hero-btn">Contact Us</a>
+        </section>
+
+        <footer>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">About Us</a></LI>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About Royalty</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Extras</h4>
+                <ul>
+                    <li><a href="#">Media Centre</a></li>
+                    <li><a href="#">Business Porgrammes</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+ 
+    </body>
+</html>
+
+
+
